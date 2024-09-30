@@ -8,6 +8,10 @@
     font-size: 28px;
 }
 
+.firstsection img {
+    max-width: 100%;
+}
+
 .secondsection {
     display: inline-block;
     width: 100%;
@@ -21,6 +25,10 @@
 .secondsection p {
     font-size: 28px;
     color: white;
+}
+
+.secondsection img {
+    max-width: 100%;
 }
 
 #navbar {
@@ -47,9 +55,16 @@
 
 .thirdsection {
     display: inline-block;
-    width: 100%;
     background-color: rgb(245, 240, 230);
-    height: 600px;
+    padding: 10px;
+}
+
+.thirdsection img {
+    max-width: 100%;
+}
+
+.thirdsection p {
+    font-size: 28px;
 }
 
 .grid {
@@ -60,9 +75,43 @@
 
 .grid-box {
     display: flex;
-    margin-top: 20px;
     background-color: #182b49;
     color: white;
     max-height: 500px;
+    max-width: 300px;
     overflow: scroll;
+}
+
+@media screen and (max-width: 800px) {
+    #navbar {
+        display: none;
+    }
+
+    #navbar a {
+        display: none;
+    }
+
+    .logo-img {
+        max-width: 75%;
+    }
+
+    .h2 {
+        font-size: 24px;
+    }
+
+    .firstsection p {
+        font-size: 20px;
+    }
+
+    .secondsection p {
+        font-size: 20px;
+    }
+
+    .thirdsection p {
+        font-size: 20px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

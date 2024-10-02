@@ -2,6 +2,7 @@
     display: inline-block;
     width: 100%;
     background-color: rgb(245, 240, 230);
+    scroll-margin-top: 100px;
 }
 
 .firstsection p {
@@ -16,6 +17,7 @@
     display: inline-block;
     width: 100%;
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    scroll-margin-top: 100px;
 }
 
 .secondsection h2 {
@@ -35,7 +37,13 @@
     position: sticky;
     top: 0;
     overflow: hidden;
-    max-width: 600px;
+    margin-left: 0;
+}
+
+#navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
   
 #navbar a {
@@ -43,7 +51,6 @@
     display: block;
     background-color: #182b49;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px;
     text-decoration: none;
     font-size: 28px;
@@ -57,6 +64,7 @@
     display: inline-block;
     background-color: rgb(245, 240, 230);
     padding: 10px;
+    scroll-margin-top: 100px;
 }
 
 .thirdsection img {
@@ -87,6 +95,7 @@
     width: 100%;
     padding: 10px;
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    scroll-margin-top: 100px;
 }
 
 .fourthsection h2 {
